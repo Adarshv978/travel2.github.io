@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 
 
 }
@@ -12,7 +12,7 @@
     background-color: #e9e7e7;
 }
 
-.navbar {
+.navbar1 {
 
     width: 100%;
     padding-left: 6.93rem;
@@ -20,11 +20,13 @@
     padding-top: 4.875rem;
 }
 
-.navbar ul li {
+.navbar1 ul li {
     display: inline;
 
 
 }
+
+
 
 #li1 {
     margin-left: 84px;
@@ -39,6 +41,10 @@
     margin-right: 84px;
 }
 
+.navbar1 nav ul li a {
+    text-decoration: none;
+    color: black;
+}
 
 a {
     text-decoration: none;
@@ -52,11 +58,12 @@ a {
     border: 3px solid black;
     font-size: 20.83px;
     border-radius: 10px;
-    margin-top: -40px;
+    margin-top: -52px;
     float: right;
-    padding-top: 15px;
-    padding-left: 72px;
+    padding-top: 8px;
+    padding-left: 42px;
 }
+
 
 /* Sidebar */
 
@@ -67,7 +74,7 @@ a {
 
     margin-right: 50px;
     float: right;
-    font-size: 90px;
+    font-size: 60px;
     background-color: #e9e7e7;
 }
 
@@ -87,7 +94,8 @@ a {
 
 }
 
-.sidenav a {
+
+.sidenav ul li a {
     text-align: center;
     text-decoration: none;
     font-size: 45px;
@@ -98,12 +106,13 @@ a {
 }
 
 .sidenav a.closebtn {
-    font-size: 115px;
+    font-size: 86px;
     float: right;
     color: black;
     margin-top: -77px;
-    font-weight: bold;
+    
 }
+
 
 .group .group1 {
     padding-left: 6.93rem;
@@ -150,7 +159,7 @@ a {
 
 .group2 {
     width: 100%;
-    height: 388px;
+    height: 446px;
     background-color: #232323;
     margin-top: 57px;
 }
@@ -205,7 +214,7 @@ a {
 
 .group3 .group3-img .img {
     width: 366px;
-    height: 500px;
+    height: 542px;
     /* border: 2px solid black; */
 }
 
@@ -261,6 +270,7 @@ a {
     column-gap: 47px;
 
 }
+
 .text-picture .largePic .tape {
     margin-top: -561px;
     margin-left: -35px;
@@ -315,6 +325,10 @@ a {
 
 }
 
+.group6 .text-picture2 ul li{
+    background-color: #e9e7e7;
+}
+
 .group6 .text-picture2 .text2 {
     width: 742px;
     height: 517px;
@@ -327,6 +341,7 @@ a {
 
 .group7 {
     height: 800px;
+    
 }
 
 
@@ -334,13 +349,17 @@ a {
 .group7 .text-card {
     margin-top: 317px;
     margin-left: 70px;
-    margin-right: 70px;
+    
 }
 
 .group7 .text-card .slider-wrap {
     position: relative;
     overflow: hidden;
-    height: 482px;
+    height: 526px;
+    
+  
+    
+    
 }
 
 
@@ -348,18 +367,23 @@ a {
     position: absolute;
     width: 100%;
     transition: 0.7s;
+   
+    
 
 }
 
 .group7 .text-card .cards .card {
     width: 391px;
-    height: 400px;
+    height: 447px;
     border: 3px solid black;
     border-radius: 20px;
     display: inline-block;
     position: relative;
     transition: 0.4s;
-    margin: 20px;
+    margin: 9px;
+    background-color: #e9e7e7;
+    margin-right: 70px;
+   
 
 
 
@@ -388,18 +412,20 @@ a {
 
 
 .sideiconRight {
-    float: left;
+   float: right;
     width: 85px;
     height: 78px;
     border: 2px solid black;
-    margin-right: -17px;
-    margin-top: -220px;
+    margin-right: 0px;
+    margin-top: -288px;
     border-radius: 15px;
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     background-color: #e9e7e9;
 
-    margin-left: 1220px;
+    /* margin-left: 1291px; */
     cursor: pointer;
+    margin-right: 70px;
 
 }
 
@@ -407,7 +433,8 @@ a {
     width: 85px;
     height: 78px;
     border: 2px solid black;
-    margin-top: -220px;
+    margin-top: -288px;
+    margin-left: -20px;
     border-radius: 15px;
     position: absolute;
     background-color: #e9e7e7;
@@ -415,7 +442,7 @@ a {
 }
 
 
-.group8{
+.group8 {
     height: 1160px;
 }
 
@@ -440,7 +467,7 @@ a {
 }
 
 .group8 .form-picture .form h2 {
-    font-size: 81.34px;
+    font-size: 80.34px;
 
 }
 
@@ -482,9 +509,10 @@ a {
     font-size: 20px;
     padding-left: 30px;
 }
-.group9{
+
+.group9 {
     background-color: #c4c4c4;
-  
+
 }
 
 
@@ -505,34 +533,38 @@ a {
 }
 
 
-.group9 .footer .table {
+.group9 .footer .table1 {
 
 
     height: 343px;
     margin-left: -220px;
-    height: 343px; width: 853px;
-    
+    height: 343px;
+    width: 853px;
+
 
 }
-.group9 .footer .table tr{
+
+.group9 .footer .table1 tr {
     height: 58px;
 }
 
-.group9 .footer .table table tr th a {
+.group9 .footer .table1 table tr th a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.group9 .footer .table table td {
+.group9 .footer .table1 table tr td a{
+    text-decoration: none;
+    color: black;
+}
+.group9 .footer .table1 table td {
     width: 225px;
 }
 
 
-a {
+.table1 tr td a{
     text-decoration: none;
-    color: black;
-    font-size: 20.86px;
 }
 
 .group9 .footer img {
@@ -584,30 +616,30 @@ a {
 @media only screen and (min-width: 568px) and (max-width:1280px) {
 
     #li1 {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     #li2 {
-        margin-right: 30px;
+        margin-right: 25px;
     }
 
     #li3 {
-        margin-right: 30px;
+        margin-right: 25px;
     }
 
     .contact {
-        margin-right: 0;
+        margin-right: 2rem;
     }
 
-    .navbar {
+    .navbar1 {
 
 
         padding-left: 0;
         padding-right: 0;
 
     }
-    
+
 
     .group .group1 {
         padding-left: 0;
@@ -622,17 +654,31 @@ a {
         height: 90%;
 
     }
-    .group1{
+
+    .group1 {
         overflow: hidden;
+        height: 546px;
     }
+
 
     .group .group1 .text-image {
 
         column-gap: 20px;
     }
 
+    .group .group1 .text-image .text h2 {
+        font-size: 61.48px;
+    }
+
     .design .lightscribble img {
         display: none;
+    }
+
+    .group2 {
+        width: 100%;
+        height: 448px;
+        background-color: #232323;
+        margin-top: 57px;
     }
 
     .design2 .img1 img {
@@ -653,30 +699,35 @@ a {
     .design2 .img3 {
         display: none;
     }
-    .group3{
-        overflow: hidden;
-    }
 
     .group3 {
+        overflow: hidden;
+        width: 100%;
         margin-top: -22px;
     }
+
+
 
     .group3 .group3-img {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 6.93rem;
+        padding-right: 7.5rem;
         padding-top: 10.875rem;
     }
 
+    #group3-img3 {
+        display: none;
+    }
+
     .group3 .group3-img .img {
-        width: 180px;
+        width: 210px;
     }
 
     .group3 .group3-img .img img {
-        width: 230px;
+        width: 100%;
     }
 
 
@@ -697,24 +748,30 @@ a {
         width: 100%;
         margin-top: 17rem;
         overflow: hidden;
+        height: 1700px;
 
     }
 
     .group4 .text-picture {
 
         column-gap: 20px;
+       
 
     }
+   
+
     .text-picture .largePic .tape {
         display: none;
     }
+   
 
     .group4 .text-picture .largePic img {
         width: 80%;
         height: 90%;
+      
     }
 
-   
+
 
     .small-picture-text .text .largeText p {
         font-size: 36.34px;
@@ -752,9 +809,10 @@ a {
 
     /* group5 */
 
-    .group5{
+    .group5 {
         overflow: hidden;
     }
+
     .group5 .text-picture1 {
         margin-top: 55px;
         margin-left: 0;
@@ -813,7 +871,7 @@ a {
         font-size: 44.46px;
         font-weight: bold;
     }
-    
+
 
     .group7 .text-card {
 
@@ -821,45 +879,60 @@ a {
         margin-right: 0;
     }
 
-    
 
-    .group7 .text-card .cards {
+
+    /* .group7 .text-card .cards {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(2, 1fr);
         column-gap: 0px;
-    }
-      .design4a img {
+    } */
+
+    .design4a img {
         display: none;
-    }  
+    }
+    
+
+    .left-right-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
 
 
 
     .sideiconRight {
-        
-        margin-left: 420px;
-        margin-top: 30px;
-      
-    }
-    .sideiconLeft{
-        margin-left: 320px;
-        margin-top: 30px;
+
+        /* margin-left: 420px;
+        margin-top: 30px; */
+        margin-left: 158px;
+        margin-right: 0;
+
     }
 
+    .sideiconLeft {
+        /* margin-left: 320px;
+        margin-top: 30px; */
+        margin-left: 0;
+        margin-right: 158px;
+    }
 
 
-    
-   
 
 
 
 
-  
 
-    
+
+
+
+
+
     .group7 .text-card .cards .card {
         width: 317px;
-        height: 402px;
+        height: 410px;
 
         margin: 20px;
     }
@@ -874,12 +947,13 @@ a {
         margin-left: 0px;
     }
 
-    .group8{
+    .group8 {
         margin-top: 277px;
         margin: 0;
     }
+
     .group .group8 .form-picture {
-        
+
         padding-left: 0;
         padding-right: 0;
     }
@@ -893,24 +967,23 @@ a {
         font-size: 61.34px;
     }
 
-    .group8 .form-picture .image img{
+    .group8 .form-picture .image img {
         width: 100%;
         height: 100%
-        
     }
 
-   
+
 
     .group9 .footer {
         display: block;
-        
-      
+
+
         padding-left: 0;
         padding-right: 0;
         padding-top: 119px;
         overflow: hidden;
-    
-    
+
+
     }
 
 
@@ -923,9 +996,12 @@ a {
 
 
 @media only screen and (min-width: 200px) and (max-width:567px) {
-    .navbar {
+    .navbar1 {
         display: none;
 
+    }
+    .group{
+        overflow: hidden;
     }
 
     .menulines {
@@ -975,10 +1051,8 @@ a {
     }
 
     .group2 {
-
-        margin-top: 784px;
-
-        height: 486px;
+        margin-top: 933px;
+        height: 613px;
     }
 
     .design2 {
@@ -1018,7 +1092,7 @@ a {
     .group3 .text2 h2 {
         font-size: 60px;
     }
-    
+
 
 
     .group4 .text-picture .largePic img {
@@ -1031,11 +1105,12 @@ a {
         column-gap: 0;
         display: block;
         overflow: hidden;
-        height: 1200px;
+        height: 1434px;
 
 
 
     }
+
     .text-picture .largePic .tape {
         margin-top: 0;
         margin-left: 0;
@@ -1053,11 +1128,12 @@ a {
         float: right;
         margin-top: -662px;
     }
-    
+
     .group4 .small-picture-text img {
         width: 95%;
     }
-    .group5{
+
+    .group5 {
         margin-top: -76px;
     }
 
@@ -1181,8 +1257,10 @@ a {
         position: absolute;
         background-color: #e9e7e7;
         cursor: pointer;
+        margin-left: 13px;
     }
-    .group8{
+
+    .group8 {
         overflow: hidden;
     }
 
@@ -1218,33 +1296,36 @@ a {
         display: none;
     }
 
-    .group9{
+    .group9 {
         overflow: hidden;
     }
-    .group9 .footer .table {
+
+    .group9 .footer .table1 {
         height: 462px;
         margin-left: 0px;
         height: 343px;
         width: 100%;
-        
+
     }
-    .group9 .footer .table tr{
+
+    .group9 .footer .table1 tr {
         height: 40px;
     }
 
 
     .group9 .footer {
         display: block;
-        
-      
+
+
         padding-left: 0;
         padding-right: 0;
         padding-top: 119px;
-        
-    
-    
+
+
+
     }
-    .group9 .footer img{
+
+    .group9 .footer img {
         display: none;
     }
 
