@@ -110,7 +110,7 @@ a {
     float: right;
     color: black;
     margin-top: -77px;
-    
+
 }
 
 
@@ -325,7 +325,7 @@ a {
 
 }
 
-.group6 .text-picture2 ul li{
+.group6 .text-picture2 ul li {
     background-color: #e9e7e7;
 }
 
@@ -341,7 +341,7 @@ a {
 
 .group7 {
     height: 800px;
-    
+
 }
 
 
@@ -349,17 +349,19 @@ a {
 .group7 .text-card {
     margin-top: 317px;
     margin-left: 70px;
-    
+
 }
 
 .group7 .text-card .slider-wrap {
     position: relative;
     overflow: hidden;
     height: 526px;
-    
-  
-    
-    
+
+
+
+
+
+
 }
 
 
@@ -367,13 +369,15 @@ a {
     position: absolute;
     width: 100%;
     transition: 0.7s;
-   
-    
+    padding-left: 10%;
+    padding-right: 10%;
+
+
 
 }
 
 .group7 .text-card .cards .card {
-    width: 391px;
+    width: 300px;
     height: 447px;
     border: 3px solid black;
     border-radius: 20px;
@@ -383,24 +387,32 @@ a {
     margin: 9px;
     background-color: #e9e7e7;
     margin-right: 70px;
-   
 
 
 
+
+}
+
+.group7 .text-card .cards .card .main {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 75px;
 }
 
 .group7 .text-card .cards .card .main img {
     margin-top: 30px;
     margin-left: 25px;
+    
 }
 
 
 
 
-.group7 .text-card .cards .card .main {
-    margin-left: 112px;
-    margin-top: 75px;
-}
+
 
 
 
@@ -412,7 +424,7 @@ a {
 
 
 .sideiconRight {
-   float: right;
+    float: right;
     width: 85px;
     height: 78px;
     border: 2px solid black;
@@ -554,16 +566,17 @@ a {
     font-weight: bold;
 }
 
-.group9 .footer .table1 table tr td a{
+.group9 .footer .table1 table tr td a {
     text-decoration: none;
     color: black;
 }
+
 .group9 .footer .table1 table td {
     width: 225px;
 }
 
 
-.table1 tr td a{
+.table1 tr td a {
     text-decoration: none;
 }
 
@@ -755,20 +768,20 @@ a {
     .group4 .text-picture {
 
         column-gap: 20px;
-       
+
 
     }
-   
+
 
     .text-picture .largePic .tape {
         display: none;
     }
-   
+
 
     .group4 .text-picture .largePic img {
         width: 80%;
         height: 90%;
-      
+
     }
 
 
@@ -873,27 +886,27 @@ a {
     }
 
 
-    .group7 .text-card {
+    /* .group7 .text-card {
 
         margin-left: 0;
         margin-right: 0;
-    }
-
-
-
-    /* .group7 .text-card .cards {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0px;
     } */
+
+
+
+
+
+     /* .group7 .text-card .cards {
+       margin-left: 20%;
+       margin-right: 20%;
+    }  */
 
     .design4a img {
         display: none;
     }
-    
 
-    .left-right-icon{
+
+    /* .left-right-icon{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -905,19 +918,17 @@ a {
 
     .sideiconRight {
 
-        /* margin-left: 420px;
-        margin-top: 30px; */
+       
         margin-left: 158px;
         margin-right: 0;
 
     }
 
     .sideiconLeft {
-        /* margin-left: 320px;
-        margin-top: 30px; */
+        
         margin-left: 0;
         margin-right: 158px;
-    }
+    }  */
 
 
 
@@ -929,8 +940,8 @@ a {
 
 
 
-
-    .group7 .text-card .cards .card {
+ 
+/*    .group7 .text-card .cards .card {
         width: 317px;
         height: 410px;
 
@@ -945,7 +956,15 @@ a {
     .group7 .text-card .cards .card .main img {
         margin-top: 31px;
         margin-left: 0px;
+    } */
+
+    .group7 .text-card .cards .card .main img {
+        margin-top: 31px;
+        margin-left: 15px;
+        width: 80%;
+        height: 80%;
     }
+    
 
     .group8 {
         margin-top: 277px;
@@ -986,6 +1005,24 @@ a {
 
     }
 
+    .group9 .footer .table1 {
+
+        margin-left: 3px;
+
+    }
+
+    .group9 .footer .table1 {
+        height: 462px;
+        margin-left: 0px;
+        height: 343px;
+        width: 100%;
+
+    }
+
+    .group9 .footer .table1 tr {
+        height: 40px;
+    }
+
 
 
 
@@ -1000,7 +1037,8 @@ a {
         display: none;
 
     }
-    .group{
+
+    .group {
         overflow: hidden;
     }
 
@@ -1105,7 +1143,7 @@ a {
         column-gap: 0;
         display: block;
         overflow: hidden;
-        height: 1434px;
+        height: 1257px;
 
 
 
@@ -1121,6 +1159,18 @@ a {
         display: block;
 
         column-gap: 0;
+    }
+    .small-picture-text .text {
+        margin-top: 80px;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 7px;
+    }
+    .small-picture-text .text .largeText p {
+        font-size: 28.34px;
+        color: #232323;
+       
     }
 
     .design3a {
@@ -1180,7 +1230,7 @@ a {
 
     .group6 .text-picture2 .text2 {
         width: 100%;
-        height: 517px;
+        height: 596px;
     }
 
     .group6 .text-picture2 .text2 p {
@@ -1202,6 +1252,12 @@ a {
 
         height: 693px;
     }
+    .group7 .text-card .cards{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: auto;
+        padding-right: auto;
+    }
 
     .group7 .text-card .cards .card .main {
         margin-left: 74px;
@@ -1219,7 +1275,7 @@ a {
 
 
     .group7 .text-card .cards .card {
-        width: 300px;
+        width: 273px;
         height: 417px;
         border: 3px solid black;
         border-radius: 20px;
@@ -1227,12 +1283,12 @@ a {
         position: relative;
         transition: 0.4s;
         margin-top: 150px;
-        margin-left: 29px;
+        margin-left: 0px;
 
 
     }
 
-    .sideiconRight {
+    /* .sideiconRight {
         float: left;
         width: 85px;
         height: 78px;
@@ -1258,7 +1314,31 @@ a {
         background-color: #e9e7e7;
         cursor: pointer;
         margin-left: 13px;
+    } */
+
+       .left-right-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 144px;
+        
     }
+
+
+
+    .sideiconRight {
+
+       
+        margin-left: 158px;
+        margin-right: 0;
+
+    }
+
+    .sideiconLeft {
+        
+        margin-left: 0;
+        margin-right: 158px;
+    } 
 
     .group8 {
         overflow: hidden;
@@ -1275,16 +1355,21 @@ a {
 
     }
 
+    .group8 .form-picture .form {
+        width: 100%;
+        height: 750px;
+    }
+
     .group8 .form-picture .form input {
-        width: 75%;
+        width: 100%;
     }
 
     .group8 .form-picture .form textarea {
-        width: 75%;
+        width: 100%;
     }
 
     .group8 .form-picture .form button {
-        width: 75%;
+        width: 100%;
     }
 
     .group8 .form-picture .form h2 {
